@@ -56,7 +56,7 @@ ul li{
     padding: 10px;
     position: relative;
     overflow-x:hidden;
-    overflow-y: scroll;
+     
 }
 
 ul .fa-check, .fa-trash{
@@ -91,5 +91,15 @@ ul .checked{
 
     .title  h2{
         font-size: 2rem;
+    }
+
+    ul .fa-check{
+        right: 60px;
+        color: green;
+    }
+    
+    ul .fa-trash{
+        right: 15px;
+        color: #ff0033;
     }
 }
